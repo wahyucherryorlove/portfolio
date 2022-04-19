@@ -690,6 +690,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 0.5rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -836,6 +840,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[calc\(100\%-theme\(\"spacing\.1\"\)\)\] {
   height: calc(100% - 0.25rem);
+}
+
+.h-\[250px\] {
+  height: 250px;
+}
+
+.h-\[260px\] {
+  height: 260px;
 }
 
 .w-full {
